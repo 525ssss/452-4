@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* General body styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+.header {
+background: white;
+color: #fff;
+padding: 10px 0;
+text-align: center;
+}
+h1{
+    color: black;
+    size: 10px;
+}
+/* Container for the navigation bar and content */
+.container {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Styling for the top navigation bar */
+.topnav {
+  background: #4d4d4d; /* Dark background color */
+  overflow: hidden;
+  padding: 20px 0;
+}
+
+.topnav a {
+  color: #fff; /* White text color */
+  text-decoration: none;
+  padding:   12px 18px;
+  transition: 0.3s; /* Transition for smooth color change */
+  display: inline-block;
+}
+
+.topnav a:hover {
+  background-color: #fff; /* Light background on mouse-over */
+  color: #4d4d4d; /* Dark text color on mouse-over */
+}
+
+.topnav a.active {
+  background-color: #4CAF50; /* Highlight the active link */
+  color: white;
+}
+
+/* Align the "right" link to the right */
+.topnav .right {
+  float: right;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Content columns styling */
+.leftcolumn {
+  float: left;
+  width: 55%;
+  padding: 20px;
+}
+
+.rightcolumn {
+  position: absolute;
+  width: 25%;
+  padding: 20px;
+  background: #fff; /* White background for the right column */
+  top: 210px;
+  right: 50px;
+}
+
+/* Card styling for content blocks */
+.card {
+  background: #fff;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Footer styling */
+.footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  height: 100px;
+  position: relative;
+}
+.footer p{
+  top: 25px;
+  position: absolute;
+  left: 45%;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+  }
+  .topnav a {
+    padding: 12px 16px;
+  }
+}
+.card img{
+  width: 300px;
+  height: 350px;
+}
+
+</style>
+</head>
+<body>
+<div class="header">
+        <h1>Home</h1>
+</div>
+<div class="container">
+  <div class="topnav">
+    <a href="index.html" class="active">Home</a>
+    <a href="6.html">Project</a>
+    <a href="66.html">Travel</a>
+  </div>
+
+  <div class="row">
+    <div class="leftcolumn">
+      <div class="card">
+        <h2>Zheng Shuang transferred property or was sentenced</h2>
+        <img src="5.jpg">
+        <p>After being banned for "surrogacy abandonment" and "tax evasion", a few days ago, the new enforcement ruling in the contract dispute between actor Zheng Shuang and Zhejiang Haining Dongkai Star Film and Television Investment Co., Ltd. was issued by the Shanghai Songjiang District People's Court.
+            Xiaoxiang Morning News (WeChat: xxcbbaoliao) reporter saw from the ruling that the court believed that after exhausting property investigation measures, Zheng Shuang, the person subject to enforcement in the case, had no property available for enforcement, and agreed to terminate the case enforcement procedure after interviewing with the person applying for enforcement.</p>
+      </div>
+      <div class="card">
+        <h2>Xiaomi SU7 unsubscribe rate 40%</h2>
+        <img src="17.jpg" alt="">
+        <p>Fast Technology reported on April 2 that a data report released by a blogger showed that 72 hours after the Xiaomi SU7 was listed, the average store accumulated 1800-2000 units.
+
+            Among them, the average daily number of new stores is 700-1000 batches, the order lock rate is 35-40%, and the unsubscription rate is 40%.
+            
+            According to statistics, nearly 50,000 users have completed the lock order in 59 Xiaomi SU7 stores across the country.</p>
+      </div>
+    </div>
+    <div class="rightcolumn">
+      <div class="card">
+        <h3>About Me</h3>
+        <img src="2.jpg" alt="">
+      </div>
+      <div class="card">
+        <h3>Popular Post</h3>
+        <img src="1.png" alt="">
+      </div>
+      <div class="card">
+        <h3>Follow Me</h3>
+        <p>Some text about social media links...</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>Copyright ©2024 James Website</p>
+  </div>
+</div>
+
+</body>
+</html>
